@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Adornete Martins Jr">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--<meta name="description" content="Junte-se a nós nessa jornada de inovação e descubra novas maneiras de aprender. Desenvolva uma ideia e
+    a transforme em aprendizado. Crie algo significativo que traga a resolução do desafio explorando novas
+    tecnologias. Você pode criar uma solução em 24 horas? Mostre-nos o seu código!">-->
+
+  <meta property="title" content="C3HACK COMPASSO">
+  <meta property="image" content="ogimage.png" />
+  <meta name="description" content="C3HACK - O Hackathon do C3 é uma jornada de inovação em conjunto com a IX SAICC onde equipes terão como
+    objetivo resolver um desafio elaborado pela Compasso durante uma maratona de desenvolvimento. Junte-se a nós, traga suas experiências e explore novas tecnologias. Você pode
+    criar uma solução em 24 horas? Mostre-nos do que você é capaz!">
+  <title>C3HACK Compasso</title>
+
+  <meta property="og:title" content="C3HACK COMPASSO">
+  <meta property="og:url" content="http://saicc.c3.furg.br/c3hack/">
+  <meta property="og:image" content="ogimage.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:description" content="C3HACK - O Hackathon do C3 é uma jornada de inovação em conjunto com a IX SAICC onde equipes terão como
+    objetivo resolver um desafio elaborado pela Compasso durante uma maratona de desenvolvimento. Junte-se a nós, traga suas experiências e explore novas tecnologias. Você pode
+    criar uma solução em 24 horas? Mostre-nos do que você é capaz!">
+
+  <meta name="apple-mobile-web-app-title" content="C3HACK">
+  <meta name="application-name" content="C3HACK">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="assets/images/browserconfig.xml">
+  <meta name="theme-color" content="#212529">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="msapplication-config" content="assets/images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,600|Titillium+Web" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-alt sticky-top">
+    <div class="container">
+
+      <a name="top" class="navbar-brand my-mb-auto ml-2 ml-md-2 mr-xl-5 mr-lg-3" href="#c3hack">
+        <h2 class="alt logo">C3HACK</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">&nbsp;</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto my-auto ml-xl-3 ml-lg-0 ml-md-2 mt-md-0 mb-0">
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuSAICC" class="nav-link" href="../" target="_blank">SAICC</a>
+          </li>
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuCronograma" class="nav-link" href="#cronograma">Cronograma</a>
+          </li>
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuDesafio" class="nav-link" href="#desafio">Desafio</a>
+          </li>
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuAvaliacao" class="nav-link" href="#avaliacao">Avaliação</a>
+          </li>
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuPremiacao" class="nav-link" href="#premiacao">Premiação</a>
+          </li>
+          <li class="nav-item my-auto mx-xl-3 mx-lg-2 ml-2 ml-md-2">
+            <a id="menuFAQ" class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item my-auto pl-xl-3 ml-xl-3 my-3 ml-1 ml-md-1">
+            <a class="btn btn-primary px-md-3 my-3 my-mb-3 ml-1 ml-md-1 my-lg-0"
+              href="https://forms.gle/ewuCbVFwufh8T1js6" target="_blank">Inscreva-se!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="c3hack" class="pt-3 mt-3">
+    <div class="container">
+      <div class="row pt-md-3 mt-md-3">
+        <div class="col-md-5 pt-3 mt-3 order-md-1 order-2">
+          <h1 class="alt logo">C3HACK</h1>
+          <!--<div class="col-md-8 col-lg-8 ">
+            <a href="http://www.compasso.com.br/" target="_blank">
+              <img class="compasso-logo" src="assets/images/sponsor/compasso-b.png" alt="Compasso" />
+            </a> 
+          </div>-->
+          <h3 class="alt">desafie | inove | aprenda</h3>
+          <h4>O C3HACK é um Hackathon do C3 em parceria com a Compasso, será uma jornada de inovação onde equipes terão
+            como objetivo resolver um desafio durante uma maratona de
+            desenvolvimento integrada ao cronograma da <a href="http://saicc.c3.furg.br/" target="_blank">IX
+              SAICC</a>.</br>
+            Junte-se a nós, traga suas experiências e explore novas tecnologias. Você pode
+            criar uma solução em 24 horas? Mostre-nos do que você é capaz!
+          </h4>
+          <a class="btn btn-primary btn-lg mt-3" href="https://forms.gle/ewuCbVFwufh8T1js6"
+            target="_blank">Inscreva-se!</a>
+        </div>
+        <div class="col-md-7 my-md-auto order-md-2 order-1 mt-3 mt-md-3 pt-3 pt-md-3">
+          <div id="illustration"></div>
+        </div>
+      </div>
+      <div id="quando" class="row align-items-center my-5 pb-md-5">
+        <div class="col-md col-lg-4 order-1">
+          <h2 class="alt">Quando?</h2>
+          <h2>24 e 25 de<br />
+            Agosto</h2>
+        </div>
+        <div class="col-md col-lg-4 order-2 py-3 my-3 py-md-3 my-md-3">
+          <h2 class="alt">Inscrições?</h2>
+          <h2>De 15 de Julho à<br />
+            18 de Agosto</h2>
+        </div>
+        <div class="col-md col-lg-4 order-3 py-3 my-3 py-md-3 my-md-3">
+          <h4 class="quote">Diga-me e eu vou esquecer. Mostre-me e eu posso não me lembrar. Envolva-me e eu vou
+            entender.</h4>
+          <h5 class="alt mb-4">Confucius</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="onde" class="bg-alt py-5 my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md col-lg-12">
+          <h2 class="alt">Onde?</h2>
+          <a href="http://www.c3.furg.br/" target="_blank">
+            <h2>Centro de Ciências Computacionais C3<br />
+          </a>
+          <a href="https://novosite.furg.br/" target="_blank">
+            <h2>FURG<br />
+          </a>
+          Rio Grande, RS</h2>
+        </div>
+      </div>
+      <div class="row align-items-center my-5">
+        <div class="col-lg-5 order-lg-1 order-1">
+          <div class="row align-items-center">
+            <div class="col-lg-12 col-md-8">
+              <h4>Provavelmente todos nós já tivemos um problema no passado que foi difícil de resolver no início, mas
+                quando trabalhado com amigos ou em equipe, de repente ficou claro, emocionante e até mesmo
+                divertido. Nós apostamos que você pode facilmente se relacionar com esse exemplo!</br></br>
+
+                O C3HACK, quer aproveitar esse ambiente colaborativo e a necessidade de aproximar a universidade de seu
+                contexto externo, promovendo atravéz de um Hackathon, a resolução de problemas reais apoiados por
+                empresas e organizações.</br></br>
+
+                Não perca essa oportunidade de imersão e aprendizado! Participe!
+
+              </h4>
+              <a class="btn btn-primary btn-lg mt-3" href="https://forms.gle/ewuCbVFwufh8T1js6"
+                target="_blank">Inscreva-se!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mx-auto order-lg-2 order-2 mt-5">
+          <div class="box-wrapper">
+            <iframe class="map" width="400" height="350" frameborder="0" style="border:0" scrolling="no"
+              marginheight="0" marginwidth="0"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13523.462339237447!2d-52.1687389!3d-32.0728841!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ae3a69edc43dca9!2sC3+-+Centro+de+Ci%C3%AAncias+Computacionais!5e0!3m2!1spt-BR!2sbr!4v1562690820978!5m2!1spt-BR!2sbr"></iframe>
+
+            <!-- <iframe src="https://www.youtube.com/embed/1rxLX9fyUhg?showinfo=0&rel=0" frameborder="0"
+            allowfullscreen></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cronograma" class="container">
+    <div class="row mt-5 mb-3 pt-md-3">
+      <div class="col-md">
+        <h2 class="bold text-center">Cronograma</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <h4 class="alt">24.08.2019</h4>
+        <h2>Sábado</h2>
+        <ul class="roadmap mt-5">
+          <li>
+            <h4 class="alt">9:00 - 10:30</h4>
+            <h2>Credenciamento</h2>
+          </li>
+          <li>
+            <h4 class="alt">10:30 - 11:00</h4>
+            <h2>Abertura</h2>
+          </li>
+          <li>
+            <h4 class="alt">11:00 - 12:00</h4>
+            <h2>Divisão dos times</h2>
+          </li>
+          <li>
+            <h4 class="alt">13:00 - 15:00</h4>
+            <h2>Apresentação do desafio</h2>
+          </li>
+          <li>
+            <h4 class="alt">15:00 - 00:00</h4>
+            <h2>Coffee In, Code Out!</h2>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 mt-5">
+        <h4 class="alt">25.08.2019</h4>
+        <h2>Domingo</h2>
+        <ul class="roadmap mt-5">
+          <li>
+            <h4 class="alt">00:00 - 01:00</h4>
+            <h2>Pizza da madrugada</h2>
+          </li>
+          <li>
+            <h4 class="alt">01:00 - 15:00</h4>
+            <h2>De volta ao código</h2>
+          </li>
+          <li>
+            <h4 class="alt">15:00 - 17:00</h4>
+            <h2>Sugestões pré-pitch</h2>
+          </li>
+          <li>
+            <h4 class="alt">17:00 - 19:00</h4>
+            <h2>Ajustes finais</h2>
+          </li>
+          <li>
+            <h4 class="alt">19:00</h4>
+            <h2>Prazo máximo de entrega!</h2>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md mt-5">
+        <h4 class="alt">26.08.2019</h4>
+        <h2>Segunda</h2>
+        <ul class="roadmap mt-5">
+          <li>
+            <h4 class="alt">10:00 - 12:00</h4>
+            <h2>Pitch na IX SAICC</h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="desafio" class="bg-alt py-3 my-5">
+    <div class="container">
+      <div class="row align-items-center py-3 py-md-3 my-3 my-md-3">
+        <div class="col-md col-lg-5 order-md-1 order-1">
+          <h2 class="alt">Qual o tema do desafio?</h2>
+          <h1>Consumo e<br />
+            Sociedade</h1>
+        </div>
+        <div class="col-md col-lg-7 order-md-2 order-2">
+          <a href="http://www.compasso.com.br/" target="_blank">
+            <img class="sponsor-logo" src="assets/images/sponsor/compasso-b.png" alt="Compasso" />
+          </a>
+        </div>
+      </div>
+
+      <div class="py-3 my-3">
+        <div class="row align-items-center">
+          <div class="col-md col-md-6 order-1 order-md-2 ml-auto">
+            <h4>Novas tecnologias nos dão a oportunidade de trazer ideias à vida. A revolução da
+              indústria 4.0 e da sociedade está em andamento e as inovações ligadas ao consumo estão mudando o
+              mundo. Em parceria com a empresa Compasso, uma organização brasileira de serviços
+              profissionais na área de TI, trazemos como tema "Consumo e Sociedade" para o desafio da edição 2019 do
+              C3HACK.</br></br>
+              Traga o seu momento "Eureka!". Crie uma solução intuitiva que quantifique, analize e melhore os
+              problemas relacionados a esse tema. Dê uma ferramenta a sociedade para explorar de maneira inovadora e
+              dinâmiva.
+              </br></br>
+              A solução irá envolver desde a criatividade da ideia até o desenvolvimento de um projeto e/ou software.
+            </h4>
+          </div>
+          <div class="col-md col-md-4 order-2 order-md-1">
+            <h3 class="py-3 my-3 quote">Como inovadores, somos os responsáveis ​​pela rapidez com que as novas
+              gerações adquirem conhecimento. Crie coisas que são importantes, mude nossa realidade e influencie a vida
+              das pessoas.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="avaliacao" class="container">
+    <div class="row mt-5 mb-3 pt-md-3">
+      <div class="col-md">
+        <h2 class="bold text-center">Avaliação</h2>
+      </div>
+    </div>
+    <div class="row align-items-center my-5 pt-md-3">
+      <div class="col-md ml-auto">
+        <div class="row">
+          <div class="col-md-4">
+            <h1 class="washed">01</h1>
+            <h4 class="alt bold floating">Ideia</h4>
+            <p>Como sua idéia se encaixa no paradigma do desafio Compasso, como você conectou tecnologia e
+              inovação na resolução do problema, quão boa a solução é da perspectiva do usuário, etc.</p>
+            <!--"aprenda&nbsp;|&nbsp;desafie&nbsp;|&nbsp;inove"-->
+          </div>
+          <div class="col-md-4">
+            <h1 class="washed">02</h1>
+            <h4 class="alt bold floating">Qualidade Técnica</h4>
+            <p>Como foram as suas decisões técnicas (ferramentas, processos, arquitetura, frameworks etc.), que
+              recursos usou mantendo o prazo de 24 horas, se você tem ideias de como desenvolver a solução ainda
+              mais, etc.</p>
+          </div>
+          <div class="col-md-4">
+            <h1 class="washed">03</h1>
+            <h4 class="alt bold floating">Apresentação</h4>
+            <p>Como você apresenta o desenvolvimento e a ideia da sua solução, se sua solução se encaixa
+              como um MVP (Produto Mínimo Viável), como mostrou os próximos passos para sua solução se tornar um
+              piloto, etc.</p>
+          </div>
+        </div>
+        <div class="row align-items-center pt-3 py-md-3 my-3 my-md-3">
+          <div class="col-md col-md-6 order-1 order-md-1">
+            <h4 class="bold">Todas as soluções desenvolvidas (projeto / app / webapp etc.) serão avaliadas
+              durante o cronograma da <a href="http://saicc.c3.furg.br/" target="_blank">9ª Semana
+                Acadêmica Integrada das Ciências Computacionais</a>.
+              Realizaremos um pitch às 10h do dia 26/08 para todas equipes apresentarem suas soluções.</h4>
+            <h4>Uma banca formada pela Comissão Organizadora do C3HACK, com apoio da Compasso, dos Mentores e de
+              Professores do C3 e da FURG, irá avaliar e classificar as duas melhores equipes.</br>
+              Os ganhadores da premiação serão revelados pela Organização durante o andamento da IX SAICC.
+              Confira as regras no <a class="alt"
+                href="https://docs.google.com/document/d/1mxl14sEyCAZ99O_3oYPz0vOM3aSc3IWVl7eJG7HfAeU/edit?usp=sharing"
+                target="_blank">Edital.</a>
+            </h4>
+          </div>
+          <div class="col-md col-md-4 order-2 order-md-2 ml-auto">
+            <h3 class="pt-5 pt-md-5 quote">Se você não consegue explicar algo de forma simples, você não entendeu
+              suficientemente bem.
+            </h3>
+            <h4 class="alt mb-4">Albert Einstein</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-alt py-3 py-md-3 my-3 my-md-3">
+    <div class="container">
+      <div class="row pt-3 py-md-3 my-3 my-md-3">
+        <div class="col-md col-lg-12">
+          <h2 class="alt">Por que participar?</h2>
+          <h3>Confira alguns benefícios</h3>
+        </div>
+      </div>
+      <div class="row mt-5 mb-3 align-items-center text-center">
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/chair.svg" alt="chair" />
+        </div>
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/people.svg" alt="people" />
+        </div>
+        <div class="col d-none d-md-block">
+          <img class="mb-3 icon" src="assets/images/clock.svg" alt="clock" />
+        </div>
+        <div class="col d-none d-md-block">
+          <img class="mb-3 icon" src="assets/images/pizza.svg" alt="pizza" />
+        </div>
+      </div>
+      <div class="row mb-5 text-center">
+        <div class="col">
+          <h4>Infraestrutura colaborativa</h4>
+        </div>
+        <div class="col">
+          <h4>Trabalhe em equipe</h4>
+        </div>
+        <div class="col d-none d-md-block">
+          <h4>24h de desenvolvimento</h4>
+        </div>
+        <div class="col d-none d-md-block">
+          <h4>Lanches e bebidas</h4>
+        </div>
+      </div>
+
+      <div class="row mt-5 mb-3 align-items-center text-center d-xs-flex d-md-none">
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/clock.svg" alt="clock" />
+        </div>
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/pizza.svg" alt="pizza" />
+        </div>
+      </div>
+      <div class="row mb-5 text-center d-xs-flex d-md-none">
+        <div class="col">
+          <h4>24h de desenvolvimento</h4>
+        </div>
+        <div class="col">
+          <h4>Lanches e bebidas</h4>
+        </div>
+      </div>
+
+      <div class="row mt-5 mb-3 align-items-center text-center">
+        <div class="col">
+
+          <img class="mb-3 icon" src="assets/images/speaker.svg" alt="speaker" />
+        </div>
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/vr.svg" alt="vr" />
+        </div>
+        <div class="col d-none d-md-block">
+          <img class="mb-3 icon" src="assets/images/sofa.svg" alt="sofa" />
+        </div>
+        <div class="col d-none d-md-block">
+          <img class="mb-3 icon" src="assets/images/prizes.svg" alt="trophy" />
+        </div>
+      </div>
+      <div class="row mb-5 pb-md-3 text-center">
+        <div class="col">
+          <h4>Mentores com experiência</h4>
+        </div>
+        <div class="col">
+          <h4>Últimas tecnologias de software</h4>
+        </div>
+        <div class="col d-none d-md-block">
+          <h4>Espaço de descanço</h4>
+        </div>
+        <div class="col d-none d-md-block">
+          <h4>Prêmios e brindes</h4>
+        </div>
+      </div>
+
+      <div class="row mt-5 mb-3 align-items-center text-center d-xs-flex d-md-none">
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/sofa.svg" alt="sofa" />
+        </div>
+        <div class="col">
+          <img class="mb-3 icon" src="assets/images/prizes.svg" alt="trophy" />
+        </div>
+      </div>
+      <div class="row mb-5 text-center d-xs-flex d-md-none">
+        <div class="col">
+          <h4>Espaço de descanço</h4>
+        </div>
+        <div class="col">
+          <h4>Prêmios e brindes</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="patrocinio" class="py-5 my-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md text-center">
+          <h2 class="pad bold text-center my-0">Patrocínio</h2>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col py-3">
+          <div class="row align-items-center">
+            <div class="col text-center hackathon-partner my-auto">
+              <a href="http://www.compasso.com.br/" target="_blank">
+                <img class="sponsor-logo" src="assets/images/sponsor/compasso-b.png" alt="Compasso" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md text-center">
+          <h3 class="alt bold">Parceiros</h3>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="http://www.sebrae.com.br" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/sebrae.png" alt="SEBRAE" />
+          </a>
+          <div class="vertical"></div>
+          <div class="horizontal"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/educacaoempreendedorafurg" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/pee.png" alt="Projeto Educação Empreendedora FURG" />
+          </a>
+          <div class="vertical"></div>
+          <div class="horizontal"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://propesp.furg.br/pt/inovacao/equipeinovacao" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/dit.png" alt="PROPESP - Diretoria de Inovação DIT" />
+          </a>
+          <div class="horizontal"></div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://edu.ieee.org/br-furg/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/ieee.png" alt="IEEE FURG Student Branch" />
+          </a>
+          <div class="vertical"></div>
+          <div class="horizontal"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="http://saicc.c3.furg.br/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/saicc.png" alt="IX SAICC Vetorial" />
+          </a>
+          <div class="vertical"></div>
+          <div class="horizontal"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://innovatio.furg.br/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/innovatio.png" alt="Innovatio" />
+          </a>
+          <div class="horizontal"></div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://oceantec.furg.br/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/oceantec.png"
+              alt="Oceantec - Parque Científico e Tecnológico" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="http://c3.furg.br/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/c3.png" alt="Centro de Ciências Computacionais C3" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="http://c3.furg.br/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/furg.png"
+              alt="Universidade Federal do Rio Grande FURG" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="premiacao" class="bg-alt py-5 my-5">
+    <div id="prices" class="container my-2">
+      <div class="row align-items-center">
+        <div class="col-lg-3 col-12">
+          <h3 class="bold">Premiação</h3>
+          <h4>C3HACK é uma excelente oportunidade para se desenvolver e ainda levar para casa uma seleção de
+            prêmios! Basta se inscrever!</br>
+            Confira mais detalhes no <a class="alt"
+              href="https://docs.google.com/document/d/1mxl14sEyCAZ99O_3oYPz0vOM3aSc3IWVl7eJG7HfAeU/edit?usp=sharing"
+              target="_blank">Edital.</a>
+          </h4>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center">
+          <img class="prize" src="assets/images/prizes/eletronicos.svg" alt="Eletrônicos" />
+          <h3 class="bold">5 Eletrônicos</h3>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 text-center">
+          <img class="prize" src="assets/images/prizes/mug.png" alt="Mochila e caneca personalizada" />
+          <h3 class="bold">5 Mochilas e canecas</h3>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12 text-center">
+          <a href="index.html" class="btn btn-primary btn-lg my-4">Increva-se!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-md">
+        <div class="row mt-5 mb-3 pt-md-3">
+          <div class="col-md">
+            <h2 class="bold text-center">Facilitadores &amp; Mentores</h2>
+          </div>
+        </div>
+        <div class="row align-items-center my-5 pb-md-5">
+          <div class="col-md col-lg-6 order-md-1 order-1">
+            <h4>Durante a resolução do desafio surgirão dúvidas, talvez você ainda não sabe exatamente o que está
+              criando, esse pode ser um bom momento para chamar um dos mentores! </br></br>
+              Eles estarão disponíveis para ajudar no Brainstorm de ideias e sugerindo o uso de tecnologias e
+              Frameworks. Mentores refinarão seus pensamentos para que seu projeto seja simples e não perca o foco.
+            </h4>
+          </div>
+          <div class="col-md col-lg-5 order-md-2 order-2 ml-auto">
+            <h3 class="pt-5 pt-md-5 quote">Às vezes, quando você inova, você comete erros. É melhor admiti-los
+              rapidamente, e seguir em frente para melhorar suas outras inovações.</h3>
+            <h4 class="alt mb-4">Steve Jobs</h4>
+          </div>
+        </div>
+        <div class="row pt-3 py-md-3 my-3 my-md-3">
+          <div class="col-md col-lg-12">
+            <h2 class="alt">Mentores C3HACK</h2>
+            <h3>Conheça alguns deles</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <p>Possui mestrado em Engenharia da Computação e graduação em Sistemas de Informação, ambos pela
+            Universidade Federal do Rio Grande. Tem experiência na área de Ciência da Computação, com ênfase em Sistemas
+            de Informação. É fundador da <a href="https://igrow.digital" target="_blank">iGrow Digital</a> e CEO da
+            plataforma de delivery <a href="https://anota.ai/" target="_blank">Anota AI</a>.</br></br>
+            <a class="alt" href="https://br.linkedin.com/in/jonas-casarin-99ba36a3" target="_blank">LinkedIn</a>
+          </p>-->
+
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar order-xl-2 avatar"
+        style="background-image: url('assets/images/mentors/alessio.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-xl-1">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Alessio Almada</h3>
+          <p>Doutorado e mestrado em Educação Ambiental, especialização em Gestão Empresarial e graduação em
+            Ciências Econômicas pela FURG. Atualmente é professor adjunto da FURG e Coordenador de Empreendedorismo e
+            Incubação
+            de Empresas vinculado à Diretoria de Inovação Tecnológica. Atual gestor da Incubadora de Empresas de Base
+            Tecnológica <a href="https://innovatio.furg.br/" target="_blank">Innovatio</a>.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/alessio-furg-29b265a0" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-3 order-xl-4"
+        style="background-image: url('assets/images/mentors/marcosjr.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-4 order-xl-3">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Marcos Fagundes Jr.</h3>
+          <p>Bacharel em Sistemas de Informação pela Universidade Federal do Rio Grande (FURG). Atua com
+            empreendedorismo digital desde 2014, sendo criador do aplicativo Rango FURG e fundador da plataforma de
+            delivery Anota AI, startup que oferece soluções de chatbot com inteligência artificial para
+            estabelecimentos de food service. Atualmente é COO da Anota AI e sócio da empresa iGrow Digital.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/marcosmfjunior/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar" style="background-image: url('assets/images/mentors/raul.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Raul Cadaval</h3>
+          <p>formado em Sistemas de Informações na FURG, iniciou seus estudos em design ainda na faculdade como
+            diversão. Ao se formar, abriu sua própria startup para desenvolvimento de layouts para sites e design para
+            Redes Sociais. Hoje, trabalha a mais de um ano na WD House, atuando com tráfego digital e design de
+            campanhas publicitárias para mais de 10 clientes pelo Brasil.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/raulcadaval/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-4 order-xl-3"
+        style="background-image: url('assets/images/mentors/matheus.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-3 order-xl-4">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Matheus Chinaglia</h3>
+          <p>Possui mestrado em Modelagem Computacional e graduação em Engenharia Civil Empresarial pela Universidade
+            Federal do Rio Grande (FURG). É fundador e CEO da startup 123Projetei. Durante os últimos 3 anos a frente da
+            empresa pode testar e validar diversas teorias de gestão, marketing, vendas e desenvolvimento de
+            equipe.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/matheus-chinaglia-051b8746/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar order-xl-2 avatar"
+        style="background-image: url('assets/images/mentors/vinicius.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-xl-1">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Vinicius Oliveira</h3>
+          <p>Doutor em Engenharia Elétrica (Robótica e Automação) pela UFRGS, Mestre em Engenharia Elétrica (Controle e
+            Robótica) pela UFSC e Engenheiro de Computação pela FURG. É Professor Associado no Centro de Ciências
+            Computacionais (C3/FURG) e tutor do Grupo PET-C3. Possui experiência na área de desenvolvimento e inovação
+            tecnológica, atuando junto ao Comitê Gestor do OCEANTEC/FURG. Atualmente desenvolve pesquisa em automação
+            aplicada à aquacultura e soluções robóticas para reabilitação física.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/vinicius-oliveira-ab8a1081/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-3 order-xl-4"
+        style="background-image: url('assets/images/mentors/cristiane.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-4 order-xl-3">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Cristiane Quintana</h3>
+          <p>Doutoranda em Educação Ambiental pela FURG. Mestre em Administração
+            pela UCS. Especialista em Gestão Portuária e Graduada em Administração Habilitação Empresas pela FURG.
+            Professora da Universidade Federal do Rio Grande (FURG). Possui experiência com ênfase em Inovações
+            Portuárias e Ambientais, Educação para Gestão Ambiental Pública, Gestão de Pessoas, Educação Ambiental e
+            Empreendedorismo Sustentável.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/cristiane-quintana-7a029a81/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar" style="background-image: url('assets/images/mentors/nelson.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Nelson Dutra</h3>
+          <p>Bacharel em Engenharia de Computação pela Universidade Federal de Pelotas (UFPel), entusiasta de Software
+            Livre, presidente na UFPel Rocket Team, já foi voluntário na Comunidade Mozilla Brasil e hoje atua como
+            Desenvolvedor Web Full Stack.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/dutrafox/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-4 order-xl-3"
+        style="background-image: url('assets/images/mentors/paulo.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-3 order-xl-4">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Paulo Vaz</h3>
+          <p>Diretor de planejamento e co-fundador da Caverna Digital e Clube Empreendedorismo RG, apaixonado por
+            Design, Marketing Digital, Tecnologia e Empreendedorismo. Por atuar na gestão e planejamento de marketing
+            digital, está sempre em constante evolução para desenvolver soluções criativas e inovadoras que tragam mais
+            resultados para a Caverna Digital e seus clientes.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/paulo-ricardo-rodrigues-vaz-06545298/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar order-xl-2 avatar"
+        style="background-image: url('assets/images/mentors/ismael.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-xl-1">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Ismael Altenhofen</h3>
+          <p>Bacharel em Sistemas de Informação pela Universidade Federal do Rio Grande (FURG) e técnico em Informática
+            pela SETREN. Atua como programador desde 2010, passando por diferentes empresas de tecnologia do estado. Foi
+            um dos fundadores do aplicativo Rango FURG e atualmente é CTO na startup Anota AI e sócio da empresa
+            iGrow.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/ismaelaltenhofen/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-3 order-xl-4"
+        style="background-image: url('assets/images/mentors/victor.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-4 order-xl-3">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Victor Antoniazzi</h3>
+          <p>Tecnólogo em Análise e Desenvolvimento de Sistemas pela Universidade Católica de Pelotas (UCPel), trabalha
+            como CTO da Thrive Data Science, atuando como especialista em tecnologias. É contribuidor open source e
+            criador de uma linguagem de programação, atualmente foca os estudos em Deep Learning, onde já desenvolveu
+            diversos projetos na área.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/vgsantoniazzi/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar" style="background-image: url('assets/images/mentors/vanessa.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Vanessa Telles</h3>
+          <p>Formada em Engenharia de Automação pela Universidade Federal do Rio Grande (FURG) e atual Sócia na Green
+            Next. Entusiasta em Design Digital e desenvolvedora desde 2014, atuando nas áreas de Data Science, Web e
+            Mobile.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/vanessa-telles-da-silva-8ab4b614a/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-4 order-xl-3"
+        style="background-image: url('assets/images/mentors/moises.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-3 order-xl-4">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Móises Borges</h3>
+          <p>Engenheiro Mecânico Empresarial e Sócio Administrador da Augen Engenharia e Inovação. Acredita que o
+            empreendedorismo e a inovação são agentes de transformação, tecnológica e social, que modificam padrões e
+            geram oportunidades.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/mois%C3%A9s-fernandes-borges-6a10ba2a/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 avatar order-xl-2 avatar"
+        style="background-image: url('assets/images/mentors/lucas.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-xl-1">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Lucas Cardoso</h3>
+          <p>Graduando em Engenharia de Automação pela Universidade Federal do Rio Grande (FURG), tem mais de 5 anos de
+            experiência trabalhando na criação de negócios inovadores. É Fundador e CEO da Green Next, onde trabalha no
+            desenvolvimento de tecnologia para o agronegócio.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/lucasbrasilcardoso/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-3 col-md-6 avatar order-md-3 order-xl-4"
+        style="background-image: url('assets/images/mentors/gabriel.jpg');">
+        <div class="avatar-filler"></div>
+      </div>
+      <div class="col-xl-3 col-md-6 order-md-4 order-xl-3">
+        <div class="mx-md-3 my-4">
+          <h3 class="bold">Gabriel Lavoura</h3>
+          <p>Graduando em Engenharia de Automação e já trabalha com desenvolvimento há mais de 7 anos, sendo entusiasta
+            em desenvolvimento Web e Mobile. É Co-fundador da Green Next, onde cria e desenvolve soluções IoT com foco
+            no agronegócio.</br></br>
+            <a class="alt" href="https://www.linkedin.com/in/gabriellavoura/" target="_blank">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bg-alt py-3 my-3">
+    <div class="container">
+      <div class="row align-items-center mt-5 mb-3 pt-md-3">
+        <div class="col-md text-center">
+          <h2 class="alt bold">Apoio</h2>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://anota.ai/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/anotaai.png" alt="Anota AI" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://caverna.digital" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/cavernadigital.png" alt="Caverna Digital" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/xondarogames/" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/xondaro.png" alt="Xondaro Games Development" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.linkedin.com/company/augen-engenharia/" target="_blank">
+            <img class="partner5-logo" src="assets/images/partners/augen.png" alt="Augen Engenharia e Inovação" />
+          </a>
+        </div>
+      </div>
+      <!--
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.nvidia.com/pt-br/" target="_blank">
+            <img class="partner3-logo" src="assets/images/partners/nvidia.png" alt="NVIDIA" />
+          </a>
+          <div class="vertical"></div>
+          <div class="horizontal"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.hotelflow.com.br/" target="_blank">
+            <img class="partner3-logo" src="assets/images/partners/hotelflow.png" alt="HotelFlow" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://caverna.digital" target="_blank">
+            <img class="partner4-logo" src="assets/images/partners/cavernadigital.png" alt="Caverna Digital" />
+          </a>
+        </div>
+      </div> -->
+    </div>
+    <div class="container">
+      <div class="row align-items-center mt-5 mb-3 pt-md-3">
+        <div class="col-md text-center">
+          <h3 class="alt bold">Empresas Jr</h3>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/bytejr/" target="_blank">
+            <img class="ej2-logo" src="assets/images/partners/byte.png" alt="Byte Empresa Jr" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/CaspEmpresaJr/" target="_blank">
+            <img class="ej-logo" src="assets/images/partners/casp.png" alt="Casp Jr - Acessoria em Automação" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/opusempresajunior/" target="_blank">
+            <img class="ej2-logo" src="assets/images/partners/opus.png" alt="Opus Consultoria Júnior" />
+          </a>
+          <div class="vertical"></div>
+        </div>
+        <div class="col text-center py-5 hackathon-partner">
+          <a href="https://www.facebook.com/horusjrfurg/" target="_blank">
+            <img class="ej-logo" src="assets/images/partners/horus.png" alt="Hórus Jr. Assessoria Contábil" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="faq" class="container">
+    <div class="row mb-3 pt-5">
+      <div class="col-md">
+        <h3 class="bold">Ainda está com dúvidas?</h3>
+      </div>
+    </div>
+
+    <div class="row mb-5 pb-md-3">
+      <div class="col-lg">
+        <ul class="faq-list py-lg-3 pt-3 pb-0 px-md-5 px-4">
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q1">Por que participar de um Hackathon</h4>
+            <div id="q1" class="collapse">
+              <p>Ao participar de um Hackathon, você terá a oportunidade de aprimorar suas técnicas de organização,
+                desenvolvimento e apresentação, além de se engajar com pessoas de segmentos diferentes do seu.
+                Hackathons são ótimas ocasiões para se adquirir experiência multifuncional, estimular o
+                raciocínio lógico e aprender a encontrar soluções de maneira mais ágil.
+                Equipes são compostas por pessoas com personalidades distintas e atreladas a diferentes disciplinas,
+                isso quer dizer que você está exposto a profissionais de variados backgrounds e,
+                por consequência, novas formas de pensamento.
+                Sendo assim, é cada vez mais comum nos depararmos com empresas que aproveitam eventos como
+                Hackathons para recrutar novos talentos.
+                Ainda não está convencido? Leia mais sobre o assunto nesses dois links: <a
+                  href="https://www.tecmundo.com.br/empreendedorismo/110938-10-bons-motivos-participar-hackathon.htm"
+                  target="_blank">TecnoMundo</a> em portugues e <a
+                  href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4"
+                  target="_blank">Medium</a> em inglês;
+              </p>
+            </div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q2">Como se inscrever no C3HACK?</h4>
+            <div id="q2" class="collapse">
+              <p>O evento é gratuíto! Para participar é simples, basta clicar <a
+                  href="https://forms.gle/ewuCbVFwufh8T1js6" target="_blank">aqui</a> e se
+                inscrever no formulário. A ficha de inscrição é individual e independe da participação na IX SAICC,
+                apenas durante a aprensentaçao do pitch. Os inscritos passarão por um processo seletivo preenchendo 40
+                vagas disponibilizadas. Lembre-se de preencher todos dados corretamente pois o credenciamento e a
+                certificação de participação dependem deles.</p>
+            </div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q3">Como as equipes serão formadas?</h4>
+            <div id="q3" class="collapse">
+              <p>Durante a inscrição você precisará escolher sua categoria, equipes serão formadas de 3
+                desenvolvedores,
+                1 designer e 1 empreendedor. Após a inscrição ocorrerá um processo seletivo, reduzindo os
+                participantes
+                a 8 equipes de 5 integrantes. Na abertura do evento as equipes serão formadas de acordo com a
+                afinidade
+                dos integrantes ou com auxílio da Organização.</p>
+            </div>
+            <div class="faq-entry-border d-lg-none"></div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q4">Quantas pessoas formam uma equipe?</h4>
+            <div id="q4" class="collapse">
+              <p>As equipes terão formato interdiciplinar, sendo compostas por 5 integrantes.</br> Um participante
+                com
+                perfil Empreendedor que fará com que a solução tenha viabilidade funcional de negócio e será
+                responsável
+                pela apresentação do modelo de solução.</br>Um participante com perfil Designer que será responsável
+                pela criativiade artística e inteface do usuário.</br>E por fim, três participantes com perfil
+                Desenvolvedor que serão responsáveis pela programação e implementação da solução.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg">
+        <ul class="faq-list py-lg-3 pt-lg-3 pt-0 pb-3 px-md-5 px-4">
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q5">Como chegar no C3?</h4>
+            <div id="q5" class="collapse">
+              <p>O C3, de C3HACK, representa o prédio do <a href="http://www.c3.furg.br/" target="_blank">Centro de
+                  Ciências Computacionais</a> que fica localizado dentro do Campus Carreiros da Universidade Federal do
+                Rio Grande FURG. Com os cursos de Engenharia de Computação, Engenharia de Automação e Sistemas de
+                Informação, mais de 500 alunos graduandos, mestrandos e doutorandos estudam todas semanas assuntos
+                relacionados a ciência, tecnologia e inovação.</br>
+                Confira o <a href="https://goo.gl/maps/hCA3JpmjgRcYsVTL8" target="_blank">mapa</a>
+                para direções de percurso.</p>
+            </div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q6">O desafio será focado em que tema?</h4>
+            <div id="q6" class="collapse">
+              <p>O desafio aborda a problemática do consumo em larga escala na sociedade atual, com a revolução
+                tecnológica os meios de compras mudaram e uma gama de desafios surgem todo dia. Como ver, medir,
+                analisar, mensurar, desburocratizar os modelos atuais? Como melhorar o consumo com
+                tecnologias atuais da perspectiva sustentável?
+                Maiores instruções e objetivos serão dados na apresentação do desafio durante a abertura do evento.</p>
+            </div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q7">Quais tecnologias o desafio aborda?</h4>
+            <div id="q7" class="collapse">
+              <p>As tecnologias abordadas dependeram da sua proposta de solução, com
+                a revolulção indústria 4.0 e a quantidade gigante de dados na internet, temas como Inteligencia
+                Artifical e Ciência de Dados estão em alta e tecnologias como Beatiful Soup, Selenium, Scikit-Learn ou
+                Tensorflow podem ajudar na solução desse desafio. Se sua solução for um webapp, provavelmente irá
+                trabalhar com tecnologias como Angular, React, React Native, Ionic, Vue, e/ou Firebase. As
+                possibilidades são infinitas, tudo depende da sua criatividade na solução do desafio.</p>
+            </div>
+          </li>
+          <li class="faq-entry">
+            <h4 data-toggle="collapse" data-target="#q8">Como acompanhar o evento?</h4>
+            <div id="q8" class="collapse">
+              <p>Você pode acompanhar através do
+                <a href="https://www.facebook.com/events/705020346593130/" target="_blank">Facebook</a>.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-alt my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <h3>Somos <em>membros ativos</em> da revolução da informação e da indústria 4.0. No desenvolvimento de
+            projetos que o importa é a nossa paixão. Projetos inovadores nos motivam a trabalhar mais. Queremos que
+            você se junte a nós e sinta essa atmosfera.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    <div class="row my-5">
+      <div class="col-md">
+        POWERED BY
+        <div class="powered">
+          <a href="http://saicc.c3.furg.br/" target="_blank">
+            <h2>IX SAICC Vetorial</h2>
+          </a>
+          <h3>9ª Semana Acadêmica Integrada das Ciências Computacionais</h3>
+        </div>
+        <div class="powered">
+          <a href="https://edu.ieee.org/br-furg/" target="_blank">
+            <h2>IEEE FURG</h2>
+          </a>
+          <h3>Student Branch</h3>
+        </div>
+        <div class="powered">
+          <a href="http://www.c3.furg.br/" target="_blank">
+            <h2>Centro de Ciências Computacionais C3</h2>
+          </a>
+          <h3>Universidade Federal do Rio Grande</h3>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+  <script src="assets/scripts/bodymovin.js"></script>
+  <script src="assets/scripts/script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143516100-1"></script>
+</body>
+
+</html>
