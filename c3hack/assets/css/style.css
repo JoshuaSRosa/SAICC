@@ -6,13 +6,21 @@
   /* Safari, Android, iOS */
 }
 
+:root{
+  --blue: #0583F2;
+  --dark-blue: #0F71F2;
+  --ocean-blue: #16498C;
+  --black: #232625;
+  --gray-wall: #F2F2F2;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-color: #252a34;
+  background-color: var(--gray-wall);
   color: #bec1cb;
 }
 
@@ -61,15 +69,15 @@ body {
 }
 
 a {
-  color: white;
+  color:var(--ocean-blue);
 }
 
 a.alt {
-  color: #e5193d;
+  color: var(--gray-wall)
 }
 
 a:hover {
-  color: white;
+  color:var(--ocean-blue);
 }
 
 footer img {
@@ -87,22 +95,22 @@ footer img {
 
 em {
   font-style: normal;
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 h1 {
-  color: #fff;
+  color: var(--blue);
   font-weight: 600;
   font-style: normal;
   font-size: 4.5rem;
 }
 
 h1.washed {
-  color: #323844;
+  color: var(--dark-blue);
 }
 
 h1.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 h1.logo {
@@ -110,7 +118,7 @@ h1.logo {
 }
 
 h2 {
-  color: #fff;
+  color: var(--blue);
   font-weight: 600;
   font-size: 2.25rem;
 }
@@ -120,7 +128,7 @@ h2.pad {
 }
 
 h2.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 h2.logo {
@@ -130,12 +138,12 @@ h2.logo {
 }
 
 h3 {
-  color: #fff;
+  color: var(--blue);
   font-size: 1.875rem;
 }
 
 h3.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 h3.quote:before {
@@ -156,12 +164,12 @@ h3.bold {
 }
 
 h4 {
-  color: #fff;
+  color: var(--blue);
   font-size: 1.375rem;
 }
 
 h4.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 h4.bold {
@@ -175,7 +183,7 @@ h4.floating {
 }
 
 h5.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 img {
@@ -188,11 +196,15 @@ img {
 
 .btn-primary {
   background-color: transparent;
-  border-color: #e5193d;
+  border-color: var(--ocean-blue);
   border-width: 2px;
   border-radius: 7px;
   font-weight: 600;
   padding: .5rem 2rem;
+}
+
+.tcolor{
+  color: var(--ocean-blue);
 }
 
 .btn-disabled {
@@ -215,8 +227,8 @@ img {
 }
 
 .btn-primary:hover {
-  background-color: #e5193d;
-  border-color: #e5193d;
+  background-color: var(--ocean-blue);
+  border-color: var(--ocean-blue);
 }
 
 p {
@@ -224,17 +236,17 @@ p {
 }
 
 .bg-alt {
-  background-color: #20262f;
+  background-color: #000000d7;
 }
 
 p.alt {
-  color: #e5193d;
+  color: var(--ocean-blue);
 }
 
 ul.faq-list {
   list-style: none;
   margin: 0;
-  background-color: #2d343f;
+  background-color: #000000d7;
 }
 
 ul.faq-list li.faq-entry {
@@ -376,7 +388,7 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 ul.roadmap li {
   position: relative;
   list-style: none;
-  padding-left: 1.5rem
+  left: -1rem;
 }
 
 ul.roadmap li:after {
@@ -384,7 +396,7 @@ ul.roadmap li:after {
   display: inline-block;
   width: .7rem;
   height: .7rem;
-  background-color: #e5193d;
+  background-color: var(--ocean-blue);
   position: absolute;
   border-radius: 50% 50%;
   top: .3rem;
@@ -396,7 +408,7 @@ ul.roadmap li:before {
   display: block;
   width: 1px;
   height: 113%;
-  background-color: rgba(255, 255, 255, .2);
+  background-color: var(--ocean-blue);
   position: absolute;
   top: .3rem;
   left: -1.71rem;
