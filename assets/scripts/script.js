@@ -9,7 +9,7 @@ $(document).ready(function onDocumentReady() {
 });
 window.dataLayer = window.dataLayer || [];
 
-$('#menuSAICC').hover(
+$('#menuAtividades').hover(
   function () {
     $(this).addClass('active')
   },
@@ -27,7 +27,7 @@ $('#menuCronograma').hover(
   }
 )
 
-$('#menuDesafio').hover(
+$('#menuPatrocionio').hover(
   function () {
     $(this).addClass('active')
   },
@@ -36,16 +36,7 @@ $('#menuDesafio').hover(
   }
 )
 
-$('#menuAvaliacao').hover(
-  function () {
-    $(this).addClass('active')
-  },
-  function () {
-    $(this).removeClass('active')
-  }
-)
-
-$('#menuPremiacao').hover(
+$('#menuLocal').hover(
   function () {
     $(this).addClass('active')
   },

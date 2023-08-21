@@ -411,16 +411,13 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 }
 
 .sponsor-logo {
-  height: 10rem;
+  height: 15rem;
   margin: 0 auto;
 }
 
-.partner3-logo {
-  height: 2.5rem;
-}
 
 .partner4-logo {
-  height: 3.5rem;
+  height: 7rem;
 }
 
 .partner5-logo {

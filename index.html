@@ -66,19 +66,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item my-auto">
-            <a class="nav-link js-scroll-trigger" href="#atividades">Atividades</a>
+            <a id="menuAtividades" class="nav-link js-scroll-trigger" href="#atividades">Atividades</a>
           </li>
           <li class="nav-item my-auto">
-            <a class="nav-link js-scroll-trigger" href="#cronograma">Cronograma</a>
+            <a id="menuCronograma" class="nav-link js-scroll-trigger" href="#cronograma">Cronograma</a>
           </li>
           <li class="nav-item my-auto">
-            <a class="nav-link js-scroll-trigger" href="#patrocinio">Patrocínio</a>
+            <a id="menuPatrocinio" class="nav-link js-scroll-trigger" href="#patrocinio">Patrocínio</a>
           </li>
           <li class="nav-item my-auto">
-            <a class="nav-link js-scroll-trigger" href="#onde">Local</a>
+            <a id="menuLocal" class="nav-link js-scroll-trigger" href="#onde">Local</a>
           </li>
           <li class="nav-item my-auto">
-            <a class="nav-link js-scroll-trigger" href="#faq">Contato</a>
+            <a id="menuFAQ" class="nav-link js-scroll-trigger" href="#faq">Contato</a>
           </li>
           <li class="nav-item mt-3 mt-lg-auto ml-lg-5">
             <a class="btn btn-nav" href="#inscricoes">Inscreva-se</a>
@@ -109,18 +109,22 @@
           <p style="text-align: justify;">Você pode ver o cronograma completo da SAICC deste ano clicando no botão abaixo:
           </p>
           
-          <a class="btn tcolor btn-primary btn-lg mt-3" href="#"
-            target="_blank">Cronograma Completo</a>
+          <div class="row justify-content-center">
+            <a class="btn tcolor btn-primary btn-lg mt-3" href="#"
+              target="_blank">Cronograma Completo</a>
+          </div>
+          <br><br>
+          <div class="row justify-content-center">
+            <h2 class="alt">Quando acontecerá?</h2>
+            <h2>De 16 a 20 de outubro.</h2>
+          </div>
+          
         </div>
         <div class="col-md-7 my-md-auto order-md-2 order-1 mt-3 mt-md-3 pt-3 pt-md-3">
-          <div id="illustration"></div>
+          <div id="illustration" style="margin-top: 1em;"></div>
         </div>
       </div>
-      <div id="quando" class="row align-items-center my-5 pb-md-5">
-        <div class="col-md col-lg-4 order-1">
-          <h2 class="alt">Quando?</h2>
-          <h2>De 16 a 20 de outubro.</h2>
-        </div>
+      <br><br>
       </div>
     </div>
   </div>
@@ -529,36 +533,36 @@
       <h2 class="text-center" style="color: white;">Por que participar?</h2>
       <hr class="divider-blue">    
       <br>
-      <div class="row mt-5 mb-3 align-items-center text-center">
-        <div class="col">
-          <img class="mb-3 icon" src="assets/images/chair.svg" alt="chair" />
+      <div class="row">
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="mt-5">
+            <img class="mb-3 icon" src="assets/images/chair.svg" alt="chair" />
+            <h4 class="black">Infraestrutura Colaborativa</h4>
+          </div>
         </div>
-        <div class="col d-none d-md-block">
-          <img class="mb-3 icon" src="assets/images/pizza.svg" alt="pizza" />
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="mt-5">
+            <img class="mb-3 icon" src="assets/images/pizza.svg" alt="pizza" />
+            <h4>Lanches e bebidas</h4>
+          </div>
         </div>
-        <div class="col">
-          <img class="mb-3 icon" src="assets/images/speaker.svg" alt="speaker" />
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="mt-5">
+            <img class="mb-3 icon" src="assets/images/speaker.svg" alt="speaker" />
+            <h4>Mentores com experiência</h4>
+          </div>
         </div>
-        <div class="col">
-          <img class="mb-3 icon" src="assets/images/sofa.svg" alt="sofa" />
+        <div class="col-lg-3 col-md-4 text-center">
+          <div class="mt-5">
+            <img class="mb-3 icon" src="assets/images/sofa.svg" alt="sofa" />
+            <h4>Espaço de descanso</h4>
+          </div>
         </div>
       </div>
-      <div class="row mb-5 text-center">
-        <div class="col">
-          <h4>Infraestrutura colaborativa</h4>
-        </div>
-        <div class="col d-none d-md-block">
-          <h4>Lanches e bebidas</h4>
-        </div>
-        <div class="col d-none d-md-block">
-          <h4>Mentores com experiência</h4>
-        </div>
-        <div class="col d-none d-md-block">
-          <h4>Espaço de descanso</h4>
-        </div>
-    </div>
-    <a class="btn tcolor btn-primary btn-lg mt-3" href="#"
+      <br><br>
+      <a class="btn tcolor btn-primary btn-lg mt-3" href="#"
             target="_blank" style="color: white;">Cronograma Completo</a>
+    </div>
   </section>
 
   <!-- Patrocinadores e apoiadores -->
@@ -574,9 +578,8 @@
           <div class="col py-3">
             <div class="row align-items-center">
               <div class="col text-center hackathon-partner my-auto">
-                <a href="#" target="_blank">
-                  <h1>Seu Logo <br>Aqui !</h1>
-                  <!-- <img class="sponsor-logo" src="assets/images/sponsor/compasso-b.png" alt="Compasso" /> -->
+                <a href="https://caspempresajr.netlify.app/" target="_blank">
+                  <img class="sponsor-logo" src="assets/images/partners/casp.png" alt="Casp Jr." />
                 </a>
               </div>
             </div>
@@ -594,21 +597,21 @@
           <div class="col text-center py-5 hackathon-partner">
             <a href="" target="_blank">
               <h1>Logo</h1>
-              <!-- <img class="partner4-logo" src="assets/images/partners/anotaai.png" alt="Anota AI" /> -->
+              <!-- <img class="partner4-logo" src="assets/images/partners/furg.png" alt="Anota AI" /> -->
             </a>
             <div class="vertical"></div>
           </div>
           <div class="col text-center py-5 hackathon-partner">
             <a href="" target="_blank">
               <h1>Logo</h1>
-              <!-- <img class="partner4-logo" src="assets/images/partners/cavernadigital.png" alt="Caverna Digital" /> -->
+              <!-- <img class="partner4-logo" src="assets/images/partners/c3.png" alt="Caverna Digital" /> -->
             </a>
             <div class="vertical"></div>
           </div>
           <div class="col text-center py-5 hackathon-partner">
             <a href="" target="_blank">
               <h1>Logo</h1>
-              <!-- <img class="partner4-logo" src="assets/images/partners/xondaro.png" alt="Xondaro Games Development" /> -->
+              <!-- <img class="partner4-logo" src="assets/images/partners/sicredi.jpg" alt="Xondaro Games Development" /> -->
             </a>
             <div class="vertical"></div>
           </div>
