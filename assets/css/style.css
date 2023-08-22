@@ -258,12 +258,16 @@ img {
   padding: .5rem 2rem;
 }
 
-.btn-insc:hover {
-  background-color: var(--ocean-blue);
-  border-color: var(--gray-wall);
-  color: var(--gray-wall);
-  animation: shine 1.5s infinite;
+.skeleton{
+  background: linear-gradient(110deg, var(--bg-alt) 20%, var(--ocean-blue) 50%, var(--bg-alt) 80%);
+  background-size: 200% 100%;
+  animation: 2s shine linear infinite;
 }
+
+.btn-insc:hover{
+  color: var(--gray-wall)
+}
+
 
 .btn-nav {
   background-color: var(--ocean-blue);
@@ -279,7 +283,6 @@ img {
   background-color: var(--bg-alt);
   border-color: var(--gray-wall);
   color: var(--gray-wall);
-  animation: shine 1.5s infinite;
 }
 
 .tcolor{
@@ -750,3 +753,10 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 .accordion>.card .card-header {
   margin-bottom: -1px;
 }
+
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+} 
