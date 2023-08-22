@@ -333,6 +333,10 @@ p.alt {
   color: var(--ocean-blue);
 }
 
+.faq-entry > h4{
+  color: var(--gray-wall);
+}
+
 ul.faq-list {
   list-style: none;
   margin: 0;
