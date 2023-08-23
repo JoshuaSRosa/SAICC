@@ -55,6 +55,10 @@ body {
   margin-left: -15px;
 }
 
+.btn {
+  transition: background-color 0.5s;
+}
+
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
@@ -248,22 +252,43 @@ img {
   padding: .5rem 2rem;
 }
 
+
+/* animation button glows from left to right */
+
+/*
+.skeleton{
+  background: linear-gradient(110deg, var(--bg-alt) 20%, var(--ocean-blue) 50%, var(--bg-alt) 80%);
+  background-size: 200% 100%;
+  animation: 2s shine linear infinite;
+  }
+  @keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+ */
+
 .btn-insc {
   background-color: var(--bg-alt);
-  border-color: var(--gray-wall);
   color: var(--gray-wall);
-  border-width: 2px;
-  border-radius: 7px;
+  border: 2px solid var(--gray-wall);
   font-weight: 600;
   padding: .5rem 2rem;
-}
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
 
 .btn-insc:hover {
-  background-color: var(--ocean-blue);
-  border-color: var(--gray-wall);
-  color: var(--gray-wall);
-  animation: shine 1.5s infinite;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px var(--blue); 
+  color: var(--gray-wall)
 }
+
 
 .btn-nav {
   background-color: var(--ocean-blue);
@@ -279,7 +304,6 @@ img {
   background-color: var(--bg-alt);
   border-color: var(--gray-wall);
   color: var(--gray-wall);
-  animation: shine 1.5s infinite;
 }
 
 .tcolor{
@@ -322,8 +346,16 @@ p {
   background-color: #000000d7;
 }
 
+/* .bg-third{
+  background-color: var(--dark-blue);
+} */
+
 p.alt {
   color: var(--ocean-blue);
+}
+
+.faq-entry > h4{
+  color: var(--gray-wall);
 }
 
 ul.faq-list {
@@ -750,3 +782,4 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 .accordion>.card .card-header {
   margin-bottom: -1px;
 }
+
