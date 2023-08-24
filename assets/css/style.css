@@ -243,6 +243,11 @@ img {
   height: 100%;
 }
 
+#gift{
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
 .btn-primary {
   background-color: transparent;
   border-color: var(--ocean-blue);
@@ -420,6 +425,12 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 
   ul.faq-list {
     padding: 0 1rem;
+  }
+
+  #gift{
+    margin: 0 auto;
+    width: 150%;
+    height: 150%;
   }
 }
 
@@ -733,6 +744,7 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 }
 
 @media (min-width: 576px) {
+  
   .card-columns {
     -webkit-column-count: 3;
     -moz-column-count: 3;
