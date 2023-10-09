@@ -452,18 +452,23 @@ ul.faq-list li.faq-entry h4[aria-expanded="true"] {
 }
 
 .sponsor-logo {
-  height: 15rem;
+  height: 13rem;
   margin: 0 auto;
 }
 
 .partner-logo {
-  height: 9rem;
+  height: 7rem;
 }
 
 
 .partner2-logo {
-  height: 12rem;
+  height: 15rem;
 }
+
+.partner3-logo {
+  height: 10rem;
+}
+
 
 .ej-logo {
   height: 7rem;
